@@ -1,0 +1,42 @@
+{
+  "name": "panku-cli",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pk": "./bin/enter.js",
+    "panku": "./bin/enter.js",
+    "pk-cli": "./bin/enter.js",
+    "panku-cli": "./bin/enter.js"
+  },
+  "scripts": {
+    "release": "npm publish"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "cli",
+    "panku-cli",
+    "脚手架"
+  ],
+  "author": {
+    "name": "guzhh",
+    "email": "agzhh@qq.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.1",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
